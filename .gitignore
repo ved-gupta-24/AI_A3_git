@@ -1,4 +1,7 @@
 .venv/
+.cache/
+*.pdf
+.DS_Store
 scripts/proxy
 scripts/rcssserver
 logs/

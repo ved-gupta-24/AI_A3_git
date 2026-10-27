@@ -188,6 +188,7 @@ if __name__ == "__main__":
         # Run the server.py script first
         all_server_processes = []
         all_start_processes = []
+        start_threads = []
         if args.use_different_rpc_port:
             for i in range(TEAM_SIZE+1):
                 server_process, rpc_port = run_server_script(args)
