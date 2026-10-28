@@ -2,6 +2,7 @@
 .cache/
 *.pdf
 .DS_Store
+ignore.md
 scripts/proxy
 scripts/rcssserver
 logs/
