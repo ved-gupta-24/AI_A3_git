@@ -1,0 +1,47 @@
+
+=== IV5 1-3 FULL   (2026-10-29_05-03-11_IV5_vs_FULL, side l, 1122 play_on cycles)
+                                 IV5          FULL
+  possession %                  46.0          54.0
+  passes ok/att          15/21 (71%)   16/18 (89%)
+  turnovers                       11             8
+    intercepted                    6             2
+    dispossessed                   3             3
+    out of play                    2             3
+    offside                        0             0
+  shots (on target)            2 (2)         5 (5)
+  tackles won/failed             0/0           3/0
+  fouls / yellow / red         0/0/0         0/0/0
+  ball in their half 23.6%  final third 16.6%  our third 40.0%  our box 10.2%
+  our turnovers by zone: def 7  mid 2  att 2
+
+  cpu ms/decision     avg 1.18  p95 12.36  max 19.8  wall max 106.6  total(max player) 2.42s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #1               4     0/2 (0%)         2      0        0      66      7410
+    #2               2     0/2 (0%)         2      0        0     506      3920
+    #3              78   5/5 (100%)         2      0        0     579      3119
+    #4              73   6/6 (100%)         1      1        0     568      2731
+    #5              18    4/6 (67%)         4      1        0     557      2704
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:93  pass_ok:4  dispossessed:2  out:1
+    hold     kept:48  dispossessed:1
+    pass     pass_ok:6  kept:4
+    pass1    pass_lost:2  pass_ok:1
+    shot1    shot:1  goal:1
+    clear    pass_lost:2
+
+  pass P calibration   n   predicted  actual
+    <0.5                1       0.44    0.00
+    0.5-0.7             1       0.66    1.00
+    0.7-0.85            3       0.80    1.00
+    >=0.85              4       0.87    0.75
+
+  coordination: 0 of 1122 cycles had 2+ of us chasing
+
+  goals
+    t=238   us    shot from [42.6, 1.1]  lost by r3 at [42.5, 1.7] (dispossessed), 5 cycles / 1 touches to goal  [last restart: free_kick_r]
+    t=542   them  shot from [-40.6, -2.9]  lost by l1 at [-52.2, 5.9] (pass_lost), 15 cycles / 2 touches to goal  [last restart: free_kick_l]
+    t=1091  them  shot from [-40.8, -6.4]  lost by l3 at [-13.2, 7.5] (dispossessed, planned hold), 81 cycles / 7 touches to goal  [last restart: kick_off_r]
+    t=1491  them  shot from [-36.7, 5.6]  lost by l1 at [-48.7, -2.2] (pass_lost), 23 cycles / 4 touches to goal  [last restart: free_kick_l]
+

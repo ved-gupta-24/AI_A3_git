@@ -1,0 +1,36 @@
+
+=== IV21 0-0 FULL   (2026-10-29_05-09-55_IV21_vs_FULL, side r, 1334 play_on cycles)
+                                IV21          FULL
+  possession %                  70.6          29.4
+  passes ok/att            6/9 (67%)   13/18 (72%)
+  turnovers                        6             7
+    intercepted                    3             5
+    dispossessed                   2             1
+    out of play                    1             1
+    offside                        0             0
+  shots (on target)            1 (1)         0 (0)
+  tackles won/failed             1/0           2/1
+  fouls / yellow / red         0/0/0         0/0/0
+  ball in their half 20.8%  final third 6.4%  our third 32.8%  our box 1.2%
+  our turnovers by zone: def 2  mid 2  att 2
+
+  cpu ms/decision     avg 1.28  p95 8.09  max 12.6  wall max 51.6  total(max player) 3.49s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #2               3    1/3 (33%)         2      0        0     554      3217
+    #3              80   2/2 (100%)         0      0        0     634      2446
+    #4              21   2/2 (100%)         1      1        0     574      2446
+    #5             171    1/2 (50%)         3      0        1     643      2915
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:259  dispossessed:2
+    pass     pass_ok:3  kept:2  won_restart:1
+    pass1    pass_ok:2  pass_lost:1
+    clear    pass_lost:2
+
+  pass P calibration   n   predicted  actual
+    0.7-0.85            1       0.79    1.00
+    >=0.85              6       0.87    0.67
+
+  coordination: 0 of 1334 cycles had 2+ of us chasing
+

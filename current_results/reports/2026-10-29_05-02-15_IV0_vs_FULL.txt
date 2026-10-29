@@ -1,0 +1,41 @@
+
+=== IV0 0-2 FULL   (2026-10-29_05-02-15_IV0_vs_FULL, side l, 1179 play_on cycles)
+                                 IV0          FULL
+  possession %                  54.5          45.5
+  passes ok/att          15/17 (88%)   11/13 (85%)
+  turnovers                        8             6
+    intercepted                    2             2
+    dispossessed                   3             0
+    out of play                    3             3
+    offside                        0             0
+  shots (on target)            0 (0)         2 (2)
+  tackles won/failed             1/1           5/0
+  fouls / yellow / red         0/0/0         2/1/0
+  ball in their half 35.8%  final third 13.1%  our third 24.4%  our box 3.1%
+  our turnovers by zone: def 1  mid 6  att 1
+
+  cpu ms/decision     avg 0.85  p95 6.64  max 12.1  wall max 46.5  total(max player) 1.36s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #2              65    2/3 (67%)         2      0        0     576      2978
+    #3              23   3/3 (100%)         1      0        0     612      2446
+    #4              32   6/6 (100%)         2      0        0     619      2446
+    #5              86    4/5 (80%)         3      0        1     590      2446
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:129  dispossessed:2  won_restart:1  pass_ok:1
+    hold     kept:48  dispossessed:1
+    pass     pass_ok:10  kept:5  pass_lost:1
+    pass1    out:1
+
+  pass P calibration   n   predicted  actual
+    0.5-0.7             1       0.66    1.00
+    0.7-0.85            3       0.79    0.67
+    >=0.85              8       0.87    0.88
+
+  coordination: 0 of 1179 cycles had 2+ of us chasing
+
+  goals
+    t=1090  them  shot from [-36.4, -9.6]  lost by l5 at [15.7, 2.4] (out), 181 cycles / 34 touches to goal  [last restart: free_kick_r]
+    t=1472  them  shot from [-45.9, 11.2]  lost by l3 at [14.1, -34.0] (out), 231 cycles / 25 touches to goal  [last restart: goal_kick_r]
+

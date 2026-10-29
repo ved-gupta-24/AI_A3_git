@@ -1,0 +1,38 @@
+
+=== IV6 0-0 FULL   (2026-10-29_05-03-26_IV6_vs_FULL, side l, 1179 play_on cycles)
+                                 IV6          FULL
+  possession %                  56.3          43.7
+  passes ok/att          20/24 (83%)   13/16 (81%)
+  turnovers                       10             8
+    intercepted                    4             3
+    dispossessed                   5             1
+    out of play                    1             4
+    offside                        0             0
+  shots (on target)            2 (2)         0 (0)
+  tackles won/failed             3/1           9/0
+  fouls / yellow / red         0/0/0         6/1/0
+  ball in their half 49.2%  final third 32.8%  our third 19.1%  our box 2.7%
+  our turnovers by zone: def 1  mid 2  att 7
+
+  cpu ms/decision     avg 1.37  p95 12.05  max 23.1  wall max 128.8  total(max player) 2.25s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #2              56    2/3 (67%)         1      0        0     560      3659
+    #3              53    7/8 (88%)         4      1        1     598      2391
+    #4              21    3/5 (60%)         3      0        2     545      3076
+    #5              40   8/8 (100%)         2      1        0     569      2446
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:124  dispossessed:5  won_restart:4  pass_ok:3
+    pass     pass_ok:7  kept:5  pass_lost:2  out:1  shot:1
+    hold     kept:2
+    pass1    pass_ok:1  pass_lost:1
+    shot1    shot:1
+
+  pass P calibration   n   predicted  actual
+    0.5-0.7             1       0.66    1.00
+    0.7-0.85            6       0.82    0.67
+    >=0.85              6       0.87    0.50
+
+  coordination: 0 of 1180 cycles had 2+ of us chasing
+

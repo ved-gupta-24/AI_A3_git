@@ -1,0 +1,41 @@
+
+=== IV23 0-1 FULL   (2026-10-29_05-10-26_IV23_vs_FULL, side r, 1109 play_on cycles)
+                                IV23          FULL
+  possession %                  51.7          48.3
+  passes ok/att          10/12 (83%)   15/19 (79%)
+  turnovers                        7             9
+    intercepted                    2             4
+    dispossessed                   4             0
+    out of play                    1             5
+    offside                        0             0
+  shots (on target)            1 (1)         1 (1)
+  tackles won/failed             0/1           7/0
+  fouls / yellow / red         0/0/0         0/0/0
+  ball in their half 35.8%  final third 24.5%  our third 30.6%  our box 2.5%
+  our turnovers by zone: def 1  mid 1  att 5
+
+  cpu ms/decision     avg 0.68  p95 6.66  max 8.6  wall max 14.6  total(max player) 1.47s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #2               2   1/1 (100%)         0      0        0     536      3664
+    #3              20   2/2 (100%)         1      1        0     560      2446
+    #4              49    2/4 (50%)         6      0        0     565      2446
+    #5              71   5/5 (100%)         0      0        0     554      2391
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:121  dispossessed:4  pass_ok:1  won_restart:1
+    pass     pass_ok:5  kept:1
+    pass1    pass_ok:1  out:1  pass_lost:1
+    shot1    shot:1
+
+  pass P calibration   n   predicted  actual
+    <0.5                1       0.44    1.00
+    0.5-0.7             2       0.66    0.50
+    0.7-0.85            1       0.79    1.00
+    >=0.85              4       0.87    0.75
+
+  coordination: 0 of 1109 cycles had 2+ of us chasing
+
+  goals
+    t=748   them  shot from [-38.0, 9.7]  lost by r4 at [28.8, -17.2] (pass_lost, planned pass1), 126 cycles / 16 touches to goal  [last restart: kick_in_l]
+

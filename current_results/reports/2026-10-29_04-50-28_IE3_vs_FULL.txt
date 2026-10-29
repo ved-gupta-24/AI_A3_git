@@ -1,0 +1,41 @@
+
+=== IE3 1-0 FULL   (2026-10-29_04-50-28_IE3_vs_FULL, side l, 1201 play_on cycles)
+                                 IE3          FULL
+  possession %                  70.4          29.6
+  passes ok/att          33/36 (92%)   13/17 (76%)
+  turnovers                        7             5
+    intercepted                    3             4
+    dispossessed                   4             0
+    out of play                    0             1
+    offside                        0             0
+  shots (on target)            2 (1)         0 (0)
+  tackles won/failed             4/0           5/0
+  fouls / yellow / red         0/0/0         4/1/0
+  ball in their half 37.2%  final third 25.8%  our third 33.7%  our box 1.6%
+  our turnovers by zone: def 2  mid 2  att 3
+
+  cpu ms/decision     avg 1.23  p95 8.68  max 15.4  wall max 87.2  total(max player) 2.75s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #2               7    1/2 (50%)         1      1        0     550      4121
+    #3              66   7/7 (100%)         1      0        3     604      3362
+    #4              51  11/12 (92%)         2      0        0     613      3329
+    #5             139  14/15 (93%)         3      1        1     617      2391
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:165  pass_ok:9  won_restart:4  dispossessed:3  pass_lost:1
+    hold     kept:43
+    pass     pass_ok:10  kept:8  pass_lost:2  shot:1
+    pass1    pass_ok:6
+    shot1    goal:1
+
+  pass P calibration   n   predicted  actual
+    <0.5                1       0.49    1.00
+    0.7-0.85            4       0.81    0.50
+    >=0.85             14       0.87    0.93
+
+  coordination: 1 of 1201 cycles had 2+ of us chasing
+
+  goals
+    t=222   us    shot from [34.2, -9.4]  lost by r2 at [31.3, -23.0] (pass_lost), 56 cycles / 11 touches to goal  [last restart: kick_off_l]
+

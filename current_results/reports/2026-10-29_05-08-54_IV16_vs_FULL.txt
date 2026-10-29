@@ -1,0 +1,40 @@
+
+=== IV16 0-2 FULL   (2026-10-29_05-08-54_IV16_vs_FULL, side r, 1142 play_on cycles)
+                                IV16          FULL
+  possession %                  40.7          59.3
+  passes ok/att          17/22 (77%)   16/19 (84%)
+  turnovers                        8             8
+    intercepted                    5             3
+    dispossessed                   3             1
+    out of play                    0             4
+    offside                        0             0
+  shots (on target)            1 (1)         2 (2)
+  tackles won/failed             2/0           4/1
+  fouls / yellow / red         0/0/0         1/0/0
+  ball in their half 27.8%  final third 9.5%  our third 48.3%  our box 5.1%
+  our turnovers by zone: def 2  mid 4  att 2
+
+  cpu ms/decision     avg 0.53  p95 3.62  max 15.4  wall max 37.9  total(max player) 0.70s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #2               3   2/2 (100%)         0      0        0     571      3182
+    #3              30    3/5 (60%)         2      1        0     627      2009
+    #4              33    6/8 (75%)         4      0        2     605      2391
+    #5              40    6/7 (86%)         2      0        0     657      2446
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:71  dispossessed:2  setplay:2  pass_ok:1  won_restart:1  stop:1
+    pass     pass_ok:6  kept:5  pass_lost:1  shot:1
+    pass1    pass_ok:3  pass_lost:1
+    clear    pass_lost:2  pass_ok:1
+
+  pass P calibration   n   predicted  actual
+    0.7-0.85            3       0.80    0.67
+    >=0.85              9       0.87    0.78
+
+  coordination: 0 of 1142 cycles had 2+ of us chasing
+
+  goals
+    t=556   them  shot from [-38.4, -5.2]  lost by r3 at [2.5, 13.7] (pass_lost, planned pass1), 84 cycles / 11 touches to goal  [last restart: kick_off_l]
+    t=951   them  shot from [-38.4, -9.2]  lost by r4 at [-12.6, 34.0] (pass_lost), 66 cycles / 7 touches to goal  [last restart: kick_in_r]
+

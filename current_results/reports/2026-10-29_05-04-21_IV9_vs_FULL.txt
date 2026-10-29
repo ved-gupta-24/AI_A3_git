@@ -1,0 +1,43 @@
+
+=== IV9 0-2 FULL   (2026-10-29_05-04-21_IV9_vs_FULL, side r, 1217 play_on cycles)
+                                 IV9          FULL
+  possession %                  42.2          57.8
+  passes ok/att           9/16 (56%)   19/22 (86%)
+  turnovers                       10             8
+    intercepted                    7             3
+    dispossessed                   2             2
+    out of play                    1             2
+    offside                        0             0
+  shots (on target)            0 (0)         2 (2)
+  tackles won/failed             1/2           5/1
+  fouls / yellow / red         0/0/0         1/1/0
+  ball in their half 37.4%  final third 5.5%  our third 33.2%  our box 5.8%
+  our turnovers by zone: def 3  mid 6  att 1
+
+  cpu ms/decision     avg 0.99  p95 12.04  max 22.2  wall max 332.9  total(max player) 2.47s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #1               2     0/1 (0%)         1      0        0      71      7670
+    #2               3   1/1 (100%)         0      0        0     572      3246
+    #3               7    1/4 (25%)         5      0        1     628      2813
+    #4              70    2/4 (50%)         3      0        0     645      2574
+    #5              25    5/6 (83%)         1      0        0     591      2446
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:81  dispossessed:1  won_restart:1  pass_lost:1
+    pass     pass_ok:4  kept:3  pass_lost:3
+    clear    dispossessed:1  kept:1  pass_lost:1
+    pass1    pass_ok:1  pass_lost:1
+
+  pass P calibration   n   predicted  actual
+    <0.5                1       0.44    0.00
+    0.5-0.7             1       0.66    0.00
+    0.7-0.85            3       0.82    0.33
+    >=0.85              4       0.87    1.00
+
+  coordination: 0 of 1217 cycles had 2+ of us chasing
+
+  goals
+    t=539   them  shot from [-38.3, -2.1]  lost by r4 at [25.7, -3.7] (dispossessed, planned dribble), 106 cycles / 11 touches to goal  [last restart: goal_kick_r]
+    t=935   them  shot from [-41.9, 11.1]  lost by r4 at [-6.4, -0.7] (pass_lost, planned pass), 115 cycles / 13 touches to goal  [last restart: kick_off_r]
+

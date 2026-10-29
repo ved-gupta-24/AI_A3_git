@@ -1,0 +1,45 @@
+
+=== IE7 0-3 FULL   (2026-10-29_04-53-06_IE7_vs_FULL, side l, 1151 play_on cycles)
+                                 IE7          FULL
+  possession %                  46.6          53.4
+  passes ok/att          25/32 (78%)   13/19 (68%)
+  turnovers                       13            11
+    intercepted                    7             6
+    dispossessed                   5             4
+    out of play                    1             1
+    offside                        0             0
+  shots (on target)            1 (0)         3 (3)
+  tackles won/failed             0/0           6/0
+  fouls / yellow / red         0/0/0         1/1/0
+  ball in their half 38.8%  final third 21.3%  our third 36.8%  our box 6.4%
+  our turnovers by zone: def 6  mid 2  att 5
+
+  cpu ms/decision     avg 1.00  p95 10.88  max 20.2  wall max 83.9  total(max player) 1.75s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #2               1     0/1 (0%)         1      0        0     541      3175
+    #3              16   5/5 (100%)         2      0        0     602      2446
+    #4              70   7/11 (64%)         6      1        0     623      2461
+    #5              47  13/15 (87%)         4      0        0     600      2446
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:85  pass_ok:4  dispossessed:3  won_restart:1  out:1
+    pass1    pass_ok:10  pass_lost:3  dispossessed:2
+    pass     pass_ok:5  kept:4  pass_lost:1  setplay:1
+    clear    pass_lost:3  kept:2  stop:1
+    shot1    shot:1
+    hold     kept:1
+
+  pass P calibration   n   predicted  actual
+    <0.5                2       0.33    0.50
+    0.5-0.7             3       0.66    1.00
+    0.7-0.85            4       0.83    0.75
+    >=0.85             13       0.87    0.62
+
+  coordination: 1 of 1152 cycles had 2+ of us chasing
+
+  goals
+    t=673   them  shot from [-41.8, 14.4]  lost by l4 at [37.2, -15.5] (shot, planned shot1), 166 cycles / 16 touches to goal  [last restart: goal_kick_r]
+    t=1117  them  shot from [-37.5, 1.6]  lost by l4 at [-45.3, -11.7] (pass_lost, planned pass), 70 cycles / 6 touches to goal  [last restart: kick_off_r]
+    t=1427  them  shot from [-41.1, -12.3]  lost by l4 at [23.8, -15.8] (pass_lost, planned pass1), 130 cycles / 16 touches to goal  [last restart: kick_off_l]
+

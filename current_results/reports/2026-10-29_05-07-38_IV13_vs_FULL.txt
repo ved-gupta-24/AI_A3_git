@@ -1,0 +1,43 @@
+
+=== IV13 0-1 FULL   (2026-10-29_05-07-38_IV13_vs_FULL, side r, 1251 play_on cycles)
+                                IV13          FULL
+  possession %                  38.4          61.6
+  passes ok/att          13/22 (59%)   19/23 (83%)
+  turnovers                       11             8
+    intercepted                    9             4
+    dispossessed                   1             0
+    out of play                    0             3
+    offside                        1             0
+  shots (on target)            0 (0)         2 (2)
+  tackles won/failed             0/1           2/0
+  fouls / yellow / red         0/0/0         2/0/0
+  ball in their half 40.0%  final third 16.4%  our third 42.6%  our box 8.7%
+  our turnovers by zone: def 4  mid 5  att 2
+
+  cpu ms/decision     avg 0.43  p95 0.98  max 15.7  wall max 29.2  total(max player) 0.69s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #1               2     0/1 (0%)         1      0        0      70      7505
+    #2               7    2/3 (67%)         2      0        0     564      2773
+    #3              24    3/4 (75%)         1      0        0     593      2787
+    #4              24    2/7 (29%)         5      0        0     615      2716
+    #5              26    6/7 (86%)         2      0        0     627      3189
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:46  won_restart:1  dispossessed:1  setplay:1
+    pass     kept:5  pass_ok:5  pass_lost:1  offside:1
+    clear    kept:4  pass_lost:3
+    pass1    pass_lost:4  pass_ok:3
+    hold     kept:1
+
+  pass P calibration   n   predicted  actual
+    <0.5                1       0.44    0.00
+    0.5-0.7             2       0.66    0.00
+    0.7-0.85            3       0.80    0.67
+    >=0.85              8       0.87    0.75
+
+  coordination: 0 of 1251 cycles had 2+ of us chasing
+
+  goals
+    t=350   them  shot from [-41.1, -0.4]  lost by r1 at [-52.1, 8.1] (pass_lost), 11 cycles / 1 touches to goal  [last restart: free_kick_r]
+

@@ -1,0 +1,40 @@
+
+=== IV7 0-1 FULL   (2026-10-29_05-05-08_IV7_vs_FULL, side r, 1267 play_on cycles)
+                                 IV7          FULL
+  possession %                  59.4          40.6
+  passes ok/att          10/13 (77%)   16/20 (80%)
+  turnovers                        5             6
+    intercepted                    3             4
+    dispossessed                   0             1
+    out of play                    1             1
+    offside                        0             0
+  shots (on target)            0 (0)         1 (1)
+  tackles won/failed             1/0           3/0
+  fouls / yellow / red         1/0/0         2/0/0
+  ball in their half 20.5%  final third 8.4%  our third 39.3%  our box 8.1%
+  our turnovers by zone: def 3  mid 1  att 1
+
+  cpu ms/decision     avg 1.49  p95 13.53  max 21.4  wall max 63.0  total(max player) 3.30s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #2               3     0/1 (0%)         1      0        0     572      4074
+    #3              87    3/4 (75%)         2      0        1     632      2446
+    #4              85    4/5 (80%)         1      0        0     660      2689
+    #5              26   3/3 (100%)         1      0        0     590      3232
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:175  won_restart:2  stop:1  setplay:1
+    pass1    pass_ok:3  out:1  won_restart:1  kept:1
+    pass     pass_ok:3  kept:2
+    clear    pass_lost:3
+    hold     kept:1
+
+  pass P calibration   n   predicted  actual
+    0.7-0.85            1       0.84    1.00
+    >=0.85              7       0.87    0.71
+
+  coordination: 1 of 1267 cycles had 2+ of us chasing
+
+  goals
+    t=136   them  shot from [-43.4, 12.4]    [last restart: kick_off_l]
+

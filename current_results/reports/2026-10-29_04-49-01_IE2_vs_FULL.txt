@@ -1,0 +1,43 @@
+
+=== IE2 0-2 FULL   (2026-10-29_04-49-01_IE2_vs_FULL, side r, 1168 play_on cycles)
+                                 IE2          FULL
+  possession %                  47.1          52.9
+  passes ok/att          21/25 (84%)   16/20 (80%)
+  turnovers                        9             8
+    intercepted                    4             4
+    dispossessed                   3             0
+    out of play                    2             4
+    offside                        0             0
+  shots (on target)            0 (0)         2 (2)
+  tackles won/failed             1/0           4/1
+  fouls / yellow / red         0/0/0         0/0/0
+  ball in their half 42.2%  final third 21.1%  our third 30.1%  our box 8.0%
+  our turnovers by zone: def 1  mid 6  att 2
+
+  cpu ms/decision     avg 1.43  p95 16.14  max 26.1  wall max 203.6  total(max player) 2.99s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #1               2   1/1 (100%)         0      0        0      80      7395
+    #2              79   4/4 (100%)         0      0        0     582      2446
+    #3              30    6/8 (75%)         4      0        1     555      2446
+    #4              17    3/4 (75%)         2      0        0     552      2446
+    #5              24    7/8 (88%)         3      0        0     592      2446
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:70  pass_ok:5  dispossessed:3
+    hold     kept:42  won_restart:1
+    pass     kept:6  pass_ok:6  pass_lost:2  out:2
+    pass1    pass_ok:4  pass_lost:1
+    clear    kept:2  pass_lost:1
+
+  pass P calibration   n   predicted  actual
+    0.5-0.7             1       0.66    1.00
+    0.7-0.85            3       0.79    0.67
+    >=0.85             11       0.87    0.64
+
+  coordination: 0 of 1168 cycles had 2+ of us chasing
+
+  goals
+    t=504   them  shot from [-40.6, 3.0]  lost by r3 at [-13.0, 25.8] (pass_lost, planned pass), 289 cycles / 29 touches to goal  [last restart: kick_in_r]
+    t=1268  them  shot from [-32.0, -4.5]  lost by r5 at [-24.9, 13.9] (pass_lost, planned clear), 116 cycles / 11 touches to goal  [last restart: free_kick_r]
+

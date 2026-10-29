@@ -1,0 +1,40 @@
+
+=== IV18 1-2 FULL   (2026-10-29_05-09-18_IV18_vs_FULL, side r, 1172 play_on cycles)
+                                IV18          FULL
+  possession %                  57.1          42.9
+  passes ok/att          14/15 (93%)   16/17 (94%)
+  turnovers                        7             4
+    intercepted                    1             1
+    dispossessed                   6             1
+    out of play                    0             2
+    offside                        0             0
+  shots (on target)            2 (2)         2 (2)
+  tackles won/failed             1/0           7/0
+  fouls / yellow / red         0/0/0         4/1/0
+  ball in their half 31.1%  final third 14.2%  our third 23.2%  our box 3.8%
+  our turnovers by zone: def 0  mid 5  att 2
+
+  cpu ms/decision     avg 1.00  p95 7.29  max 12.0  wall max 22.1  total(max player) 2.63s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #2             130   3/3 (100%)         0      0        0     574      2446
+    #3              14   2/2 (100%)         3      0        1     552      2782
+    #4              31    4/5 (80%)         3      1        0     607      2787
+    #5              15   5/5 (100%)         1      1        0     556      3230
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:159  dispossessed:6  won_restart:5  pass_ok:1
+    pass     pass_ok:5  kept:3
+    shot1    goal:1
+
+  pass P calibration   n   predicted  actual
+    0.7-0.85            1       0.84    1.00
+    >=0.85              4       0.87    1.00
+
+  coordination: 0 of 1172 cycles had 2+ of us chasing
+
+  goals
+    t=639   them  shot from [-37.8, 4.2]  lost by r4 at [37.8, 34.0] (shot), 277 cycles / 44 touches to goal  [last restart: kick_in_r]
+    t=1300  them  shot from [-38.3, 15.0]  lost by r4 at [-6.7, 34.0] (pass_lost), 99 cycles / 12 touches to goal  [last restart: kick_in_r]
+    t=1445  us    shot from [32.7, -12.1]  lost by l2 at [30.1, -18.8] (setplay), 33 cycles / 2 touches to goal  [last restart: foul_charge_l->free_kick_r]
+

@@ -1,0 +1,38 @@
+
+=== IE8 0-0 FULL   (2026-10-29_04-51-45_IE8_vs_FULL, side l, 1391 play_on cycles)
+                                 IE8          FULL
+  possession %                  71.6          28.4
+  passes ok/att          18/21 (86%)   14/17 (82%)
+  turnovers                        7             6
+    intercepted                    3             3
+    dispossessed                   3             3
+    out of play                    1             0
+    offside                        0             0
+  shots (on target)            1 (1)         2 (2)
+  tackles won/failed             1/1           3/1
+  fouls / yellow / red         0/0/0         1/1/0
+  ball in their half 27.3%  final third 13.2%  our third 34.2%  our box 2.7%
+  our turnovers by zone: def 1  mid 4  att 2
+
+  cpu ms/decision     avg 0.98  p95 5.90  max 12.6  wall max 36.7  total(max player) 2.19s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #1               2   1/1 (100%)         0      0        0      59      7590
+    #2              75    2/3 (67%)         1      0        0     652      2446
+    #3              47    2/3 (67%)         3      0        0     665      2391
+    #4              20    4/5 (80%)         3      1        1     662      2530
+    #5             148   9/9 (100%)         0      0        0     680      2446
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:253  pass_ok:2  dispossessed:2  out:1  won_restart:1  stop:1
+    pass     pass_ok:10  kept:9
+    pass1    pass_ok:3  pass_lost:2  dispossessed:1
+    shot1    shot:1
+    clear    kept:1
+
+  pass P calibration   n   predicted  actual
+    0.7-0.85            6       0.81    0.83
+    >=0.85             10       0.87    0.80
+
+  coordination: 1 of 1391 cycles had 2+ of us chasing
+

@@ -1,0 +1,44 @@
+
+=== IV12 1-2 FULL   (2026-10-29_05-05-58_IV12_vs_FULL, side l, 1172 play_on cycles)
+                                IV12          FULL
+  possession %                  42.6          57.4
+  passes ok/att          18/20 (90%)  19/19 (100%)
+  turnovers                        6             3
+    intercepted                    2             0
+    dispossessed                   4             1
+    out of play                    0             2
+    offside                        0             0
+  shots (on target)            1 (1)         3 (3)
+  tackles won/failed             0/0           5/1
+  fouls / yellow / red         0/0/0         1/0/0
+  ball in their half 55.7%  final third 27.5%  our third 18.9%  our box 3.8%
+  our turnovers by zone: def 1  mid 0  att 5
+
+  cpu ms/decision     avg 1.13  p95 11.20  max 19.3  wall max 237.3  total(max player) 1.89s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #1               2     0/1 (0%)         1      0        0      44      7762
+    #2               1   1/1 (100%)         0      0        0     531      2683
+    #3              48   4/4 (100%)         0      0        0     592      2446
+    #4              39    6/7 (86%)         2      1        0     609      2786
+    #5              41   7/7 (100%)         3      0        0     572      2446
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:98  dispossessed:2  pass_ok:1  won_restart:1
+    pass     pass_ok:7  kept:4
+    pass1    pass_ok:5  dispossessed:2  kept:1
+    clear    kept:1
+    shot1    goal:1
+
+  pass P calibration   n   predicted  actual
+    0.5-0.7             1       0.66    0.00
+    0.7-0.85            4       0.81    1.00
+    >=0.85              9       0.87    0.89
+
+  coordination: 0 of 1172 cycles had 2+ of us chasing
+
+  goals
+    t=463   them  shot from [-35.2, -2.4]  lost by l1 at [-45.2, 7.3] (pass_lost), 13 cycles / 1 touches to goal  [last restart: free_kick_l]
+    t=679   us    shot from [35.1, -6.9]  lost by r2 at [28.4, -20.1] (out), 101 cycles / 6 touches to goal  [last restart: kick_in_l]
+    t=1306  them  shot from [-37.7, 2.3]  lost by l4 at [25.3, 34.0] (pass_lost), 140 cycles / 18 touches to goal  [last restart: kick_in_l]
+

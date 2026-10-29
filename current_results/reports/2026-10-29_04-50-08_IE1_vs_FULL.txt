@@ -1,0 +1,43 @@
+
+=== IE1 0-1 FULL   (2026-10-29_04-50-08_IE1_vs_FULL, side r, 1237 play_on cycles)
+                                 IE1          FULL
+  possession %                  63.5          36.5
+  passes ok/att          24/29 (83%)    7/10 (70%)
+  turnovers                        9             9
+    intercepted                    5             3
+    dispossessed                   4             2
+    out of play                    0             4
+    offside                        0             0
+  shots (on target)            0 (0)         1 (1)
+  tackles won/failed             1/0           4/1
+  fouls / yellow / red         0/0/0         1/0/0
+  ball in their half 42.2%  final third 24.5%  our third 19.2%  our box 2.2%
+  our turnovers by zone: def 1  mid 2  att 6
+
+  cpu ms/decision     avg 0.94  p95 7.79  max 12.6  wall max 22.4  total(max player) 2.20s of 75s  cut-offs 0
+
+  per player     touch  pass ok/att  turnover  shots  tackles   run m  min stam
+    #2               7    3/4 (75%)         1      0        0     593      2446
+    #3              43    6/8 (75%)         6      0        1     639      2391
+    #4              96    8/9 (89%)         1      0        0     637      2787
+    #5              42    7/8 (88%)         1      0        0     648      2786
+
+  planned (note) -> actual outcome of that touch
+    dribble  kept:146  pass_ok:4  dispossessed:2  won_restart:1
+    pass     pass_ok:9  kept:5  pass_lost:3  stop:1
+    pass1    pass_ok:4  pass_lost:1
+    clear    kept:1  pass_ok:1
+    shot1    dispossessed:2
+    hold     kept:1
+
+  pass P calibration   n   predicted  actual
+    <0.5                2       0.44    0.00
+    0.5-0.7             1       0.64    0.00
+    0.7-0.85            2       0.77    1.00
+    >=0.85             13       0.87    0.85
+
+  coordination: 1 of 1237 cycles had 2+ of us chasing
+
+  goals
+    t=506   them  shot from [-39.9, -0.0]  lost by r3 at [51.5, -33.0] (pass_lost), 173 cycles / 26 touches to goal  [last restart: corner_kick_r]
+
